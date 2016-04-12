@@ -18,7 +18,7 @@ gem 'activerecord-postgis-adapter'
 
 gem 'active_model_serializers'
 
-gem 'refile', require: ['refile/rails', 'refile/image_processing']
+gem 'refile', require: ['refile/rails']
 
 # To upload images to S3 with the refile we need:
 
