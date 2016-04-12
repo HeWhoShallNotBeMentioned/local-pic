@@ -1,4 +1,34 @@
 Rails.application.routes.draw do
+  namespace :api do
+  namespace :v1 do
+    get 'pictures/index'
+    end
+  end
+
+  namespace :api do
+  namespace :v1 do
+    get 'pictures/show'
+    end
+  end
+
+  namespace :api do
+  namespace :v1 do
+    get 'pictures/create'
+    end
+  end
+
+  namespace :api do
+  namespace :v1 do
+    get 'pictures/update'
+    end
+  end
+
+  namespace :api do
+  namespace :v1 do
+    get 'pictures/delete'
+    end
+  end
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
