@@ -10,7 +10,29 @@ gem 'spring', :group => :development
 
 gem 'pg'
 
+gem 'rgeo', '~> 0.5.0'
 
+gem 'activerecord-postgis-adapter'
+
+# Serializer for JSON
+
+gem 'active_model_serializers'
+
+gem 'refile', require: ['refile/rails', 'refile/image_processing']
+
+# To upload images to S3 with the refile we need:
+
+gem 'aws-sdk'
+
+gem 'aws-sdk-v1' # Can be used together with v2 because of different namespaces
+
+gem 'mini_magick'
+
+gem 'sidekiq'
+
+gem 'ohm'
+
+gem 'ohm-contrib'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
