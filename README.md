@@ -24,6 +24,7 @@ Technologies Used
 rails api --v 4.2.5.2
 Amazon S3
 gem sidekiq
+gem refile
 
 See gem file for more details.
 
