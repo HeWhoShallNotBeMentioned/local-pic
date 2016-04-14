@@ -20,6 +20,8 @@ gem 'active_model_serializers'
 
 gem 'refile', require: ['refile/rails']
 
+gem 'refile-s3'
+
 # To upload images to S3 with the refile we need:
 
 gem 'aws-sdk'
